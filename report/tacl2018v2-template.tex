@@ -77,14 +77,26 @@ Jure Bevc
 
 \begin{document}
 \maketitle
-\begin{abstract}
-  
-\end{abstract}
 
 \section{Introduction}
+Named entity recognition (NER) is a subfield of natural language processing, where we seek to process text so that we locate and classify named entities into pre-defined categories. This has been done through hand crafted grammar-based techniques and through machine learning models. While state-of-the-art solutions for English are reaching near-human performance, we will attempt to implement a NER system for Slovenian language using the ssj500k dataset \cite{dataset}. To do this, we have researched existing approaches in terms of how they are implemented and evaluated. This report summarizes our findings and approaches in the field of NER.
+
 \section{Existing solutions}
+
+Since many approaches have been developed to solve the problem of named entity recognition, we started looking at surveys that were done on NER systems. One such survey covers fifteen years of research in the NER field \cite{nadeau2007survey}, where the authors describe the developed machine learning techniques and also review features and model evaluation.\\
+Another survey was done on deep learning models, which have only recently been studied and developed \cite{yadav2019survey}. In this survey they present architectures for NER and compare them to previous approaches.\\
+
+From these surveys we found out that most of the popular and recent approaches use some variant of recurrent neural networks (RNN). An efficient and lightweight architecture is presented in the paper \cite{shen2017deep}, where they have drastically reduced the amount of training data, while still achieving close to state-of-the-art results.\\
+
+Besides neural networks we have also looked at other papers, which describe conditional random fields or Hidden Markov
+Models as described in \cite{HMM}, where they also achieved great performance. We also reviewed an article published on NER in Slovene \cite{Stajner_Erjavec_Krek_2013}, where they used conditional random fields and the same ssj500k database as we were planning to use.
+
 \section{Initial ideas}
 
+When reviewing our options, we decided our first approach would be an LSTM neural network. The TensorFlow library allows us to easily create, train and evaluate such networks in Python. For parsing the dataset we intend to use existing tools, such as the tei-reader (Python 3 Library for Reading the Text Content and Metadata of TEI P5 Files) and Natural Language Toolkit (NLTK).
+
+\bibliography{tacl2018}
+\bibliographystyle{acl_natbib}
 \end{document}
 
 
