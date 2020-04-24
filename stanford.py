@@ -7,7 +7,7 @@ class StanfordModel:
 			self.parser = XMLParser()
 		else:
 			self.parser = XMLParser(file_path)
-		data = self.parser.all_words_and_tags()
+		data = self.parser.list_all_tags()
 		
 		f = open("ssj500k.tsv", "w")
 		for d in data:

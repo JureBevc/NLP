@@ -18,10 +18,25 @@ class XMLParser:
 		return words_in_entity, entity_names
 		
 	def all_words_and_tags(self):
-		words = self.doc.getElementsByTagName("w")
 		all_words = []
 		for word in words:
 			parent_tag = word.parentNode.tagName
 			word_tag = word.parentNode.getAttribute("subtype") if parent_tag == "seg" else "O"
 			all_words.append((word.firstChild.nodeValue, word_tag))
 		return all_words
+	
+	def list_all_tags(self):
+		sen = self.doc.getElementsByTagName("s")
+		tags = []
+		for s in sen:
+			for c in s.childNodes:
+				if c.nodeType != c.TEXT_NODE:
+					if c.tagName == "pc" or c.tagName == "w":
+						word_tag = "O"
+						word = c.firstChild.nodeValue;
+						tags.append((word, word_tag))
+					elif c.tagName == "seg":
+						word_tag = c.getAttribute("subtype")
+						for word in self.words_in_element(c):
+							tags.append((word, word_tag))
+		return tags
