@@ -18,24 +18,105 @@ class StanfordModel:
 		for d in data:
 			f.write(d[0] + "\t" + d[1] + "\n")
 		f.close()
+	
+	def evaluate_model(self):
+		tf = open("./results/test.txt", "r")
+		rf = open("./results/test_result.txt", "r")
+		
+		true_tags = [([],[])]
+		for line in tf:
+			if line == "\n":
+				true_tags.append(([],[]))
+				continue
+			spl = line.split(" ")
+			token = spl[0]
+			tag = 'O'
+			if "LOC" in spl[1]:
+				tag = "loc"
+			if "ORG" in spl[1]:
+				tag = "org"
+			if "PER" in spl[1]:
+				tag = "per"
+			if "MISC" in spl[1]:
+				tag = "misc"
+			true_tags[-1][0].append(token)
+			true_tags[-1][1].append(tag)
+		tf.close()
+		
+		result_tags = [([],[])]
+		for line in rf:
+			if line == "\n":
+				result_tags.append(([],[]))
+				continue
+			spl = line.split("\t")
+			token = spl[0]
+			tag = spl[1].strip()
+			result_tags[-1][0].append(token)
+			result_tags[-1][1].append(tag)
+		rf.close()
+		
+		tags = ["loc", "misc", "org", "per"]
+		for t in tags:
+			TP = 0
+			S = 0
+			P = 0
+			for i in range(len(result_tags)):
+				rt = result_tags[i][1]
+				tt = true_tags[i][1]
+				for j in range(len(rt)):
+					if rt[j] == t and tt[j] == t:
+						TP += 1
+					if rt[j] == t:
+						S += 1
+					#print(tt[j])
+					if tt[j] == t:
+						P += 1
 
+			precision = TP/S
+			recall = TP/P
+			f1 = 2 * (precision * recall) / (precision + recall)
+			print(f"\n{t}:")
+			print(f"--Precision: {precision}")
+			print(f"--Recall: {recall}")
+			print(f"--F1: {f1}")
+		
+	
 	def test_model(self):
 		jar = './stanford/stanford-ner.jar'
 		model = './stanford/slovenian-stanford-model.ser.gz'
 		ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
 
-		print(ner_tagger.tag(nltk.word_tokenize('Tim Novak se je odločil, da oropa banko')))
-		print(ner_tagger.tag(nltk.word_tokenize('Zavod za zaposlovanje Republike Slovenije je izdal odločbo za povečanje socialnega dodatka šibkejšim skupinam.')))
-		print(ner_tagger.tag(nltk.word_tokenize('The employment bureau of the Republic of Slovenia has issued an order to increase the social supplement to weaker social groups.')))
-		print(ner_tagger.tag(nltk.word_tokenize('V njegovem času so se v Rim preselili številni gnostiki, ki so razlagali krščanstvo v nasprotju z naukom svetega pisma in cerkvenega učiteljstva.')))
-		print(ner_tagger.tag(nltk.word_tokenize('Direktor SOVE je dal odpoved.')))
-		print(ner_tagger.tag(nltk.word_tokenize('The director of SOVA has announced his resignation.')))
-		print(ner_tagger.tag(nltk.word_tokenize('V okolici Bleda se je število ljudi zmanjšalo.')))
-		print(ner_tagger.tag(nltk.word_tokenize('Z družino gremo na Triglav')))
-		print(ner_tagger.tag(nltk.word_tokenize('Tilen gre iz Nišc v Višce čez cestišče')))
-		print(ner_tagger.tag(nltk.word_tokenize('Zazrl se je v Tino, nato pa se s težkim korakom vrnil v svojo klop.')))
-		print(ner_tagger.tag(nltk.word_tokenize('Rok, Peter Hodulja in Tim Macesen so se najprej odpeljali do Kranja, nato skozi Posavec do Otoč in se skozi Koritno vrnili na Bled')))
-		print(ner_tagger.tag(nltk.word_tokenize('Kranjska Gora, Ilirska Bistrica in Polhov gradec.')))
-		print(ner_tagger.tag(nltk.word_tokenize('Ivan Cankar se je rodil na Klancu v Vrhniki.')))
-		print(ner_tagger.tag(nltk.word_tokenize('Rok, pridi, gremo k babici Ančki!')))
-		print(ner_tagger.tag(nltk.word_tokenize('Josip Vajkard Valvasor je spisal Slavo Vojvodine Kranjske')))
+		sentences = [([],[])]
+		tf = open("./results/test.txt", "r")
+		for line in tf:
+			if line == "\n":
+				print(sentences[-1][0])
+				sentences.append(([],[]))
+				continue
+			spl = line.split(" ")
+			token = spl[0]
+			tag = 'O'
+			if "LOC" in spl[1]:
+				tag = "loc"
+			if "ORG" in spl[1]:
+				tag = "org"
+			if "PER" in spl[1]:
+				tag = "per"
+			if "MISC" in spl[1]:
+				tag = "misc"
+			sentences[-1][0].append(token)
+			sentences[-1][1].append(tag)
+		tf.close()
+		
+		f = open("./results/test_result.txt", "w")
+		for s in sentences:
+			#print(s[0])
+			result = ner_tagger.tag(s[0])
+			for r in result:
+				f.write(r[0] + "\t" + r[1] + "\n")
+			f.write("\n")
+		f.close()
+
+if __name__ == "__main__":
+	s = StanfordModel()
+	s.evaluate_model()
