@@ -6,7 +6,7 @@
 
     python -m deeppavlov install ner_ontonotes_bert
 4. Download trained DeepPavlov model from https://www.dropbox.com/s/pyo7phu2n77a3ok/ner_ontonotes_bert_mult.zip?dl=0
-5. Put in ~/.deeppavlov/models/ in directory "ner_ontonotes_bert_mult"
+5. Put in (profile folder, both in Windows or linux, Mac) ~/.deeppavlov/models/ in directory "ner_ontonotes_bert_mult"
 
 
 ##Scripts:
