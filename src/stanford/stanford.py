@@ -83,14 +83,15 @@ class StanfordModel:
 	
 	def test_model(self):
 		jar = './stanford/stanford-ner.jar'
-		model = './stanford/slovenian-stanford-model.ser.gz'
+		model = './stanford/train-test.ser.gz'
 		ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
 
 		sentences = [([],[])]
 		tf = open("./results/test.txt", "r")
+		count = 0
 		for line in tf:
 			if line == "\n":
-				print(sentences[-1][0])
+				#print(sentences[-1][0])
 				sentences.append(([],[]))
 				continue
 			spl = line.split(" ")
@@ -107,9 +108,10 @@ class StanfordModel:
 			sentences[-1][0].append(token)
 			sentences[-1][1].append(tag)
 		tf.close()
-		
 		f = open("./results/test_result.txt", "w")
 		for s in sentences:
+			count += 1
+			print(f"Running model {count} / {len(sentences)}")
 			#print(s[0])
 			result = ner_tagger.tag(s[0])
 			for r in result:
@@ -118,5 +120,8 @@ class StanfordModel:
 		f.close()
 
 if __name__ == "__main__":
-	s = StanfordModel()
-	s.evaluate_model()
+    s = StanfordModel()
+    print("Testing model")
+    s.test_model()
+    print("Running evaluation")
+    s.evaluate_model()

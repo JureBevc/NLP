@@ -4,8 +4,8 @@ skomignil	O
 in	O
 rekel	O
 :	O
-Otok	loc
-Tracy	loc
+Otok	per
+Tracy	per
 .	O
 
 Zbirka	O
@@ -172,7 +172,7 @@ v	O
 zakup	O
 .	O
 
-Kuhane	O
+Kuhane	per
 žličnike	O
 odcedite	O
 in	O
@@ -324,8 +324,8 @@ krajem	O
 
 Odkar	O
 je	O
-Minka	O
-Peterka	O
+Minka	per
+Peterka	per
 ovdovela	O
 ,	O
 živi	O
@@ -335,7 +335,7 @@ idilični	O
 hribovski	O
 vasici	O
 ,	O
-Stegnah	loc
+Stegnah	per
 ,	O
 daleč	O
 od	O
@@ -460,7 +460,7 @@ oče	O
 je	O
 pod	O
 zaščito	O
-Saturna	loc
+Saturna	per
 .	O
 
 Najmanj	O
@@ -588,7 +588,7 @@ nadaljnji	O
 razvoj	O
 .	O
 
-Slovenija	O
+Slovenija	loc
 bo	O
 skupaj	O
 s	O
@@ -719,7 +719,7 @@ geselskega	O
 članka	O
 .	O
 
-Prekanjeni	O
+Prekanjeni	per
 Francozi	per
 so	O
 mu	O
@@ -734,21 +734,21 @@ njihovim	O
 terminom	O
 .	O
 
-Po	O
-ustanovni	O
-listini	O
-Združenih	org
-narodov	org
-lahko	O
-članica	O
-ZN	org
+Po	misc
+ustanovni	misc
+listini	misc
+Združenih	misc
+narodov	misc
+lahko	misc
+članica	misc
+ZN	misc
 uporabi	O
 silo	O
 v	O
 samoobrambi	O
 brez	O
 odobritve	O
-VS	org
+VS	O
 sicer	O
 res	O
 legalno	O
@@ -776,8 +776,8 @@ silo	O
 Izbirate	O
 lahko	O
 med	O
-NIVEA	misc
-body	misc
+NIVEA	O
+body	O
 mlekom	O
 za	O
 suho	O
@@ -831,7 +831,7 @@ mesto	O
 je	O
 zanesljivo	O
 ostalo	O
-Capirossiju	per
+Capirossiju	loc
 ,	O
 ostali	O
 pa	O
@@ -882,8 +882,8 @@ se	O
 je	O
 vrnila	O
 v	O
-San	loc
-Antonio	loc
+San	per
+Antonio	per
 in	O
 Juanita	per
 mu	O
@@ -894,7 +894,7 @@ kavo	O
 
 Pojav	O
 imenujemo	O
-Meissnerjev	O
+Meissnerjev	per
 efekt	O
 ,	O
 njegova	O
@@ -1082,7 +1082,7 @@ Visoneer	org
 s	O
 svojim	O
 skenerjem	O
-PaperPort	misc
+PaperPort	O
 .	O
 
 Avstrija	loc
@@ -1218,7 +1218,7 @@ npr.	O
 zgodovinarjev	O
 Štuheca	per
 ,	O
-Studena	per
+Studena	loc
 pa	O
 Miheličeve	per
 ,	O
@@ -1338,7 +1338,7 @@ te	O
 dni	O
 ponuja	O
 središče	O
-Mokronoga	loc
+Mokronoga	per
 podobo	O
 gradbišča	O
 .	O
@@ -1505,7 +1505,7 @@ so	O
 nekoč	O
 bili	O
 člani	O
-UDBE	org
+UDBE	O
 ali	O
 sodelovali	O
 z	O
@@ -1608,7 +1608,7 @@ po	O
 besedah	O
 vodje	O
 poslancev	O
-DeSUS	org
+DeSUS	O
 Ivana	per
 Kebriča	per
 v	O
@@ -1693,8 +1693,8 @@ diha	O
 $	O
 F	O
 Sv.	O
-Terezija	per
-DJ	O
+Terezija	org
+DJ	org
 ,	O
 Povest	misc
 duše	misc
@@ -1793,12 +1793,12 @@ je	O
 sodnikova	O
 pesem	O
 iz	O
-Pinafore	misc
+Pinafore	loc
 ne	O
 ,	O
 nisem	O
 mislil	O
-Pinafore	misc
+Pinafore	O
 mislil	O
 sem	O
 saj	O
@@ -1950,13 +1950,13 @@ v	O
 pradavnem	O
 budističnem	O
 tekstu	O
-Madhyamika	misc
-Karika	misc
-Vrrti	misc
+Madhyamika	per
+Karika	per
+Vrrti	per
 piše	O
 :	O
 »	O
-Budha	per
+Budha	O
 je	O
 učil	O
 ,	O
@@ -2034,7 +2034,7 @@ v	O
 pisane	O
 nagradne	O
 vrečke	O
-Poli	misc
+Poli	O
 s	O
 skrivnostno	O
 vsebino	O
@@ -2136,7 +2136,7 @@ preučevanja	O
 živalskega	O
 vedenja	O
 in	O
-Sahlins	per
+Sahlins	misc
 (	O
 1976	O
 )	O
@@ -2174,8 +2174,8 @@ Preseneča	O
 me	O
 ,	O
 da	O
-RTV	O
-Slovenija	O
+RTV	org
+Slovenija	org
 ni	O
 mogla	O
 v	O
@@ -2237,7 +2237,7 @@ merili	O
 moči	O
 tudi	O
 igralci	O
-Gorenja	org
+Gorenja	loc
 in	O
 veteranske	O
 selekcije	O
@@ -2571,20 +2571,20 @@ krvi	O
 so	O
 začeli	O
 na	O
-univerzi	org
-Berkeley	org
+univerzi	O
+Berkeley	per
 ,	O
 v	O
 laboratoriju	O
-Lawrence	org
-Berkeley	org
-National	org
-Laboratory	org
+Lawrence	per
+Berkeley	per
+National	per
+Laboratory	per
 in	O
 njeni	O
 podružnici	O
-Berkeley	org
-Heartlab	org
+Berkeley	per
+Heartlab	per
 .	O
 
 Te	O
@@ -2722,7 +2722,7 @@ predstavo	O
 Petra	per
 Iljiča	per
 Čajkovskega	per
-Trnuljčica	misc
+Trnuljčica	per
 .	O
 
 In	O
@@ -2773,9 +2773,9 @@ bodo	O
 predstavniki	O
 kulturnikov	O
 od	O
-ministrstva	org
-za	org
-finance	org
+ministrstva	O
+za	O
+finance	O
 zahtevali	O
 tolmačenje	O
 101.	O
@@ -2785,7 +2785,7 @@ o	misc
 dohodnini	misc
 .	O
 
-Kriva	O
+Kriva	loc
 je	O
 naravnost	O
 nora	O
@@ -2912,10 +2912,10 @@ vodja	O
 delegacije	O
 Evropske	org
 komisije	org
-v	O
-Sloveniji	loc
-Erwan	per
-Fouere	per
+v	org
+Sloveniji	org
+Erwan	org
+Fouere	org
 .	O
 
 Nekateri	O
@@ -2966,7 +2966,7 @@ v	O
 računalniku	O
 s	O
 procesorjem	O
-Pentium	misc
+Pentium	O
 na	O
 120	O
 MHz	O
@@ -3276,7 +3276,7 @@ in	O
 Španije	loc
 .	O
 
-Dekonstruktivizmu	O
+Dekonstruktivizmu	per
 ,	O
 ki	O
 ga	O
@@ -3289,7 +3289,7 @@ do	O
 takih	O
 pojmov	O
 pripisati	O
-Libeskindu	per
+Libeskindu	loc
 ,	O
 grozi	O
 ,	O
@@ -3345,7 +3345,7 @@ PROSTOROV	O
 DELODAJALCA	O
 .	O
 
-Glasovnice	O
+Glasovnice	per
 je	O
 v	O
 kotu	O
@@ -3401,15 +3401,15 @@ sem	O
 iskal	O
 desničarske	O
 lastnosti	O
-Janševih	deriv-per
+Janševih	per
 sledbenikov	O
 ,	O
 ki	O
 nasprotujejo	O
 levičarskim	O
 mnenjem	O
-Ropovih	deriv-per
-gorečnikov	O
+Ropovih	per
+gorečnikov	per
 .	O
 
 Enemu	O
@@ -3423,7 +3423,7 @@ prebiti	O
 do	O
 marice	O
 in	O
-Mateja	O
+Mateja	per
 je	O
 skušal	O
 potisniti	O
@@ -3451,8 +3451,8 @@ ki	O
 jo	O
 je	O
 imenoval	O
-Človeška	O
-komedija	O
+Človeška	org
+komedija	org
 .	O
 
 Trajalo	O
@@ -3496,7 +3496,7 @@ evropskim	O
 prvakinjam	O
 ,	O
 vrsti	O
-Hypa	org
+Hypa	per
 iz	O
 južnega	O
 dela	O
@@ -3520,7 +3520,7 @@ svoje	O
 naloge	O
 predala	O
 enotam	O
-Nata	org
+Nata	per
 ,	O
 njeni	O
 pripadniki	O
@@ -3530,8 +3530,8 @@ predali	O
 orožje	O
 .	O
 
-Alfa	misc
-147	misc
+Alfa	per
+147	O
 bo	O
 tako	O
 v	O
@@ -3555,10 +3555,10 @@ smernice	O
 ,	O
 začrtane	O
 z	O
-alfama	misc
-156	misc
+alfama	O
+156	O
 in	O
-166	misc
+166	O
 .	O
 
 »	O
@@ -3570,7 +3570,7 @@ pravih	O
 dokumentov	O
 .	O
 
-Antropolog	O
+Antropolog	per
 poskuša	O
 organizirati	O
 vso	O
@@ -3627,7 +3627,7 @@ področju	O
 
 Nekateri	O
 brskalniki	O
-Mailto	O
+Mailto	per
 URLjev	O
 ne	O
 podpirajo	O
@@ -3763,8 +3763,8 @@ ostane	O
 tretji	O
 najmočnejši	O
 človek	O
-Ruske	loc
-federacije	loc
+Ruske	org
+federacije	org
 ali	O
 pa	O
 naj	O
@@ -3886,9 +3886,9 @@ centru	O
 lotiti	O
 .	O
 
-Šesta	O
-stopnja	O
-HELIODROMUS	O
+Šesta	misc
+stopnja	misc
+HELIODROMUS	misc
 (	O
 sončni	O
 tekač	O
@@ -3896,7 +3896,7 @@ tekač	O
 je	O
 pod	O
 zaščito	O
-Sonca	loc
+Sonca	O
 .	O
 
 Postal	O
@@ -4005,8 +4005,8 @@ katerega	O
 pa	O
 je	O
 bil	O
-nenatančen	O
-Figo	O
+nenatančen	per
+Figo	per
 .	O
 
 Julia	per
@@ -4027,8 +4027,8 @@ povedal	O
 da	O
 je	O
 v	O
-Trade	misc
-Centru	misc
+Trade	loc
+Centru	O
 prišlo	O
 do	O
 eksplozije	O
@@ -4041,9 +4041,9 @@ oblasti	O
 dovolile	O
 zaradi	O
 romana	O
-Podlimbarskega	per
+Podlimbarskega	loc
 razpuščeni	O
-Matici	org
+Matici	per
 spet	O
 delati	O
 ,	O
@@ -4069,7 +4069,7 @@ navdušenje	O
 .	O
 
 Do	O
-Gibraltarja	loc
+Gibraltarja	per
 je	O
 še	O
 828	O
@@ -4181,19 +4181,19 @@ nosilca	O
 izvedbe	O
 (	O
 tiskarno	O
-Instituto	org
-Poligrafico	org
-e	org
-Zecca	org
-dello	org
-Stato	org
+Instituto	misc
+Poligrafico	misc
+e	misc
+Zecca	misc
+dello	misc
+Stato	misc
 in	O
 tekstilno	O
 tvrdko	O
-Gruppo	org
-Tessile	org
-Arnaldo	org
-Caprai	org
+Gruppo	per
+Tessile	per
+Arnaldo	per
+Caprai	per
 ,	O
 ki	O
 je	O
@@ -4304,7 +4304,7 @@ zbiralnice	O
 mleka	O
 .	O
 
-ZLSD	O
+ZLSD	org
 naj	O
 bi	O
 kandidirala	O
@@ -4450,7 +4450,7 @@ tudi	O
 uradno	O
 prihajajo	O
 konzole	O
-Xbox	misc
+Xbox	per
 .	O
 
 Obisk	O
@@ -5189,7 +5189,7 @@ ki	O
 je	O
 nekdaj	O
 posedoval	O
-Komendo	loc
+Komendo	per
 ima	O
 torej	O
 z	O
@@ -5230,8 +5230,8 @@ samega	O
 
 V	O
 Triglavskem	loc
-narodnem	loc
-parku	loc
+narodnem	O
+parku	O
 pa	O
 naj	O
 bi	O
@@ -5449,10 +5449,10 @@ je	O
 v	O
 soboto	O
 na	O
-6.	misc
-kongresu	misc
-socialdemokratske	misc
-stranke	misc
+6.	O
+kongresu	O
+socialdemokratske	O
+stranke	O
 (	O
 SDS	org
 )	O
@@ -5483,13 +5483,13 @@ bodo	O
 ZDA	loc
 ,	O
 če	O
-VS	org
+VS	O
 ne	O
 odobri	O
 vojaške	O
 akcije	O
 ,	O
-Irak	loc
+Irak	per
 napadle	O
 ,	O
 kot	O
@@ -5757,8 +5757,8 @@ Misel	O
 ,	O
 da	O
 se	O
-Cornelia	misc
-II	misc
+Cornelia	per
+II	O
 ne	O
 ziblje	O
 več	O
@@ -5880,7 +5880,7 @@ po	O
 namestitvi	O
 gonilnika	O
 je	O
-Minolta	org
+Minolta	per
 takoj	O
 pripravljena	O
 za	O
@@ -5901,7 +5901,7 @@ novejše	O
 različice	O
 operacijskega	O
 sistema	O
-Windows	O
+Windows	misc
 .	O
 
 "	O
@@ -5954,9 +5954,9 @@ bolezen	O
 ,	O
 imenovano	O
 bolezen	O
-Charcot	O
+Charcot	org
 -	O
-Marie	O
+Marie	org
 -	O
 Tooth	O
 ,	O
@@ -6017,7 +6017,7 @@ namreč	O
 da	O
 bi	O
 vstop	O
-Poljske	O
+Poljske	loc
 v	O
 bruseljsko	O
 skupnost	O
@@ -6053,10 +6053,10 @@ začetku	O
 decembra	O
 pripravil	O
 posvet	O
-Kako	misc
-poslovati	misc
-z	misc
-Albanijo	misc
+Kako	O
+poslovati	O
+z	O
+Albanijo	loc
 .	O
 
 Policisti	O
@@ -6293,7 +6293,7 @@ ne	O
 namenjajo	O
 za	O
 obnovo	O
-Mosteca	loc
+Mosteca	per
 .	O
 
 Skočil	O
@@ -6406,7 +6406,7 @@ hkrati	O
 prvi	O
 uradni	O
 dvostranski	O
-Buzekov	deriv-per
+Buzekov	per
 obisk	O
 v	O
 tujini	O
@@ -6566,7 +6566,7 @@ za	O
 to	O
 .	O
 
-Nakičeva	O
+Nakičeva	per
 je	O
 v	O
 včerajšnjem	O
@@ -6590,7 +6590,7 @@ Vsekakor	O
 pa	O
 bi	O
 po	O
-Šuštarjevem	deriv-per
+Šuštarjevem	per
 mnenju	O
 20	O
 milijonov	O
@@ -6665,7 +6665,7 @@ Potočnik	per
 ki	O
 se	O
 v	O
-Cerkvi	org
+Cerkvi	loc
 na	O
 Slovenskem	loc
 največ	O
@@ -7075,9 +7075,9 @@ sestrama	O
 o	O
 predlogih	O
 sklepa	O
-Mandatno	org
-imunitetne	org
-komisije	org
+Mandatno	per
+imunitetne	O
+komisije	O
 glede	O
 imunitete	O
 gospoda	O
@@ -7100,7 +7100,7 @@ do	O
 poslušnosti	O
 .	O
 
-Parkirišč	O
+Parkirišč	per
 ni	O
 dovolj	O
 ,	O
@@ -7134,7 +7134,7 @@ včeraj	O
 navsezgodaj	O
 predali	O
 izolskemu	O
-Delmarju	org
+Delmarju	per
 ,	O
 ki	O
 jih	O
@@ -7214,8 +7214,8 @@ takrat	O
 dalje	O
 toliko	O
 kot	O
-N.	O
-A.	O
+N.	per
+A.	per
 
 Sicer	O
 pa	O
@@ -7225,7 +7225,7 @@ kdo	O
 dela	O
 tukaj	O
 na	O
-gradbišču	O
+gradbišču	loc
 :	O
 80	O
 %	O
@@ -7242,7 +7242,7 @@ neprijetna	O
 dela	O
 ,	O
 je	O
-Romov	O
+Romov	per
 .	O
 
 Na	O
@@ -7332,7 +7332,7 @@ so	O
 njegovo	O
 prenočišče	O
 zapori	O
-Piombi	org
+Piombi	loc
 ,	O
 kjer	O
 so	O
@@ -7345,7 +7345,7 @@ Benetk	loc
 ,	O
 ali	O
 pa	O
-Ponti	org
+Ponti	O
 ,	O
 kjer	O
 so	O
@@ -7542,16 +7542,16 @@ podjetju	O
 .	O
 
 Ravnatelj	O
-Stane	O
-Osojnik	O
+Stane	per
+Osojnik	per
 z	O
-osnovne	org
-šole	org
-Prežihov	org
-Voranc	org
+osnovne	O
+šole	O
+Prežihov	per
+Voranc	per
 z	O
-Raven	loc
-na	loc
+Raven	O
+na	O
 Koroškem	loc
 o	O
 nasilju	O
@@ -7682,7 +7682,7 @@ ki	O
 je	O
 pod	O
 imenom	O
-Charlotte	per
+Charlotte	O
 postala	O
 prva	O
 prava	O
@@ -7783,7 +7783,7 @@ samo	O
 ugibamo	O
 .	O
 
-Vetrova	O
+Vetrova	per
 pot	O
 ni	O
 vetrovna	O
@@ -7841,7 +7841,7 @@ se	O
 lahko	O
 v	O
 kraju	O
-Radenci	loc
+Radenci	per
 prepričali	O
 ,	O
 da	O
@@ -7905,7 +7905,7 @@ KONSTRUKCIJO	O
 KRAJINE	O
 ,	O
 V	O
-ZDA	O
+ZDA	loc
 PA	O
 JE	O
 NARAVNOST	O
@@ -7923,7 +7923,7 @@ TURISTIČNE	O
 PONUDBE	O
 .	O
 
-Administrativnemu	O
+Administrativnemu	per
 diskurzu	O
 je	O
 diskurz	O
@@ -8011,7 +8011,7 @@ začnejo	O
 rasti	O
 .	O
 
-Marion	O
+Marion	per
 je	O
 štiriletnega	O
 sina	O
@@ -8225,7 +8225,7 @@ Menimo	O
 ,	O
 da	O
 uporaba	O
-GSO	O
+GSO	org
 v	O
 kmetijstvu	O
 ogroža	O
@@ -8337,9 +8337,9 @@ tekmah	O
 )	O
 .	O
 
-Družba	O
-za	O
-upravljanje	O
+Družba	org
+za	org
+upravljanje	org
 bo	O
 vlagatelju	O
 ob	O
@@ -8394,12 +8394,12 @@ galeriji	O
 Krke	loc
 na	O
 Šmarješki	loc
-cesti	loc
-6	loc
+cesti	O
+6	O
 .	O
 
 •	O
-Močvirska	O
+Močvirska	loc
 preslica	O
 -	O
 drenaža	O
@@ -8483,7 +8483,7 @@ novim	O
 letom	O
 za	O
 pariški	O
-Figaro	org
+Figaro	per
 dejal	O
 ,	O
 da	O
@@ -8506,7 +8506,7 @@ smo	O
 omenili	O
 (	O
 gl.	O
-Verstvo	O
+Verstvo	per
 )	O
 ,	O
 ta	O
@@ -8533,8 +8533,8 @@ močnejšimi	O
 od	O
 2	O
 GHz	O
-Intelovega	O
-Pentiuma	misc
+Intelovega	per
+Pentiuma	per
 .	O
 
 Pila	O
@@ -8605,7 +8605,7 @@ skrito	O
 v	O
 gostem	O
 dimu	O
-Tako'sa	org
+Tako'sa	O
 .	O
 
 Na	O
@@ -8988,7 +8988,7 @@ je	O
 znala	O
 vživeti	O
 v	O
-Charisina	deriv-per
+Charisina	loc
 občutja	O
 ,	O
 da	O
@@ -9121,7 +9121,7 @@ svoje	O
 potrebe	O
 po	O
 shranjevanju	O
-Playboyev	org
+Playboyev	O
 .	O
 
 To	O
@@ -9183,12 +9183,12 @@ in	O
 Hately	per
 T.	per
 ,	O
-Uncertainty	misc
-on	misc
-a	misc
-Himalayan	misc
-Scale	misc
-an	misc
+Uncertainty	org
+on	O
+a	O
+Himalayan	per
+Scale	per
+an	O
 Institutional	misc
 Theory	misc
 of	misc
@@ -9206,10 +9206,10 @@ of	misc
 the	misc
 Hamalaya	misc
 ,	O
-Milton	misc
-Ash	misc
-Editions	misc
-Ethnographica	misc
+Milton	per
+Ash	per
+Editions	per
+Ethnographica	per
 ,	O
 London	loc
 ,	O
@@ -9362,7 +9362,7 @@ moker	O
 .	O
 
 Pri	O
-Fujifilmu	org
+Fujifilmu	O
 so	O
 objavili	O
 ,	O
@@ -9413,8 +9413,8 @@ A	O
 KK	org
 Lipica	org
 in	O
-Kobilarna	org
-Lipica	org
+Kobilarna	loc
+Lipica	loc
 :	O
 finale	O
 pokala	O
@@ -9561,8 +9561,8 @@ je	O
 napisal	O
 odmevno	O
 izjavo	O
-Izvensodni	misc
-proces	misc
+Izvensodni	O
+proces	O
 in	O
 v	O
 njej	O
@@ -9596,7 +9596,7 @@ položaja	O
 .	O
 
 Povsem	O
-Stasi	org
+Stasi	per
 -	O
 oče	O
 !	O
@@ -9661,8 +9661,8 @@ Prihodnjič	O
 vzemite	O
 s	O
 seboj	O
-Nokio	misc
-7270	misc
+Nokio	O
+7270	O
 ,	O
 pa	O
 zagotovo	O
@@ -9699,19 +9699,19 @@ dveh	O
 visokogorskih	O
 koč	O
 ,	O
-Cojzove	loc
+Cojzove	per
 na	O
 Kokrskem	loc
 in	O
 Kamniške	loc
 na	O
 Kamniškem	loc
-sedlu	loc
+sedlu	O
 (	O
 oziroma	O
 na	O
-Jermanovih	loc
-vratih	loc
+Jermanovih	per
+vratih	O
 ,	O
 kot	O
 je	O
@@ -9785,7 +9785,7 @@ sredi	O
 septembra	O
 .	O
 
-Cosworth	org
+Cosworth	per
 je	O
 tako	O
 vendarle	O
@@ -9798,7 +9798,7 @@ motorje	O
 medtem	O
 ko	O
 bo	O
-Minardija	per
+Minardija	loc
 še	O
 naprej	O
 oskrboval	O
@@ -9924,8 +9924,8 @@ Sandiju	per
 Čolniku	per
 v	O
 njegovem	O
-Večernem	misc
-gostu	misc
+Večernem	O
+gostu	O
 in	O
 opazil	O
 sem	O
@@ -10179,8 +10179,8 @@ izgubljali	O
 delo	O
 .	O
 
-Nokia	misc
-7270	misc
+Nokia	org
+7270	O
 ima	O
 na	O
 boku	O
@@ -10211,8 +10211,8 @@ Ko	O
 sem	O
 po	O
 odprtju	O
-Orto	org
-kluba	org
+Orto	O
+kluba	O
 spet	O
 prišel	O
 nazaj	O
@@ -10301,7 +10301,7 @@ nesrečah	O
 .	O
 
 Na	O
-Koupafestu	misc
+Koupafestu	loc
 smo	O
 .	O
 
@@ -10440,7 +10440,7 @@ Lev	O
 je	O
 strasten	O
 ,	O
-Tehtnica	O
+Tehtnica	per
 odkrita	O
 in	O
 svobodna	O
@@ -10601,8 +10601,8 @@ pod	O
 2	O
 .	O
 
-Naprava	O
-BICOM	misc
+Naprava	per
+BICOM	per
 je	O
 torej	O
 nekakšna	O
@@ -10690,7 +10690,7 @@ bi	O
 iskali	O
 povprečnega	O
 člana	O
-F21	org
+F21	O
 ,	O
 bi	O
 bil	O
@@ -10718,7 +10718,7 @@ nadzornem	O
 svetu	O
 .	O
 
-Copyright	O
+Copyright	org
 Salomon	org
 d.	org
 o.	org
@@ -10750,9 +10750,9 @@ Nemčiji	loc
 nacionalni	O
 TV	O
 hiši	O
-ZDF	org
+ZDF	O
 in	O
-ARD	org
+ARD	O
 sta	O
 že	O
 dan	O
@@ -10768,7 +10768,7 @@ prenovljenega	O
 medtem	O
 ko	O
 domače	O
-ORF	org
+ORF	O
 ni	O
 bilo	O
 še	O
@@ -10846,7 +10846,7 @@ bolj	O
 bližal	O
 njemu	O
 določeni	O
-Nobelovi	O
+Nobelovi	per
 nagradi	O
 ,	O
 ni	O
@@ -10899,7 +10899,7 @@ to	O
 naredu	O
 .	O
 
-Intel	org
+Intel	O
 je	O
 napovedal	O
 nove	O
@@ -10928,7 +10928,7 @@ kartic	O
 
 Push	O
 to	O
-Talk	O
+Talk	per
 ali	O
 po	O
 slovensko	O
@@ -10952,7 +10952,7 @@ le	O
 okrepil	O
 .	O
 
-Magnet	O
+Magnet	per
 ,	O
 ki	O
 ga	O
@@ -11241,7 +11241,7 @@ Horjul	loc
 ,	O
 preusmeril	O
 čez	O
-Lučine	loc
+Lučine	per
 ,	O
 «	O
 je	O
@@ -11399,9 +11399,9 @@ Schroder	per
 Henry	per
 Winkler	per
 in	O
-Freddie	per
-Prinze	per
-ml.	per
+Freddie	misc
+Prinze	misc
+ml.	misc
 
 KAHLIL	per
 GIBRAN	per
@@ -11451,9 +11451,9 @@ dodano	O
 vrednost	O
 po	O
 ocenah	O
-ministrstva	org
-za	org
-finance	org
+ministrstva	O
+za	O
+finance	O
 obvezno	O
 vključenih	O
 okoli	O
@@ -11461,7 +11461,7 @@ okoli	O
 zavezancev	O
 .	O
 
-Jurijevo	deriv-per
+Jurijevo	per
 ravnanje	O
 se	O
 mi	O
@@ -11678,7 +11678,7 @@ v	O
 akcijo	O
 .	O
 
-Biljard	O
+Biljard	per
 je	O
 potem	O
 pri	O
@@ -11699,15 +11699,15 @@ znova	O
 oživel	O
 .	O
 
-CDN	misc
+CDN	O
 -	O
 B	O
 KK	org
 Ježa	org
-pri	org
-Ježu	org
+pri	O
+Ježu	per
 (	O
-Radomlje	loc
+Radomlje	org
 )	O
 :	O
 spomladanski	O
@@ -11947,7 +11947,7 @@ mudil	O
 se	O
 je	O
 na	O
-Poljskem	O
+Poljskem	loc
 )	O
 in	O
 poškodovanega	O
@@ -12061,7 +12061,7 @@ rešila	O
 življenje	O
 .	O
 
-Blair	O
+Blair	per
 je	O
 tudi	O
 opozoril	O
@@ -12407,7 +12407,7 @@ Olimpije	org
 ,	O
 zdaj	O
 pa	O
-Bostona	org
+Bostona	loc
 .	O
 
 Za	O
@@ -12453,7 +12453,7 @@ dodatnih	O
 programov	O
 .	O
 
-Osumljenega	O
+Osumljenega	per
 J.	per
 Z.	per
 pa	O
@@ -12523,7 +12523,7 @@ veliko	O
 gorja	O
 .	O
 
-Cankarjevo	deriv-per
+Cankarjevo	O
 navidezno	O
 razočaranje	O
 nad	O
@@ -12715,7 +12715,7 @@ tudi	O
 v	O
 Kraljevu	loc
 ,	O
-Nišu	loc
+Nišu	per
 ,	O
 Kruševcu	loc
 in	O
@@ -12743,7 +12743,7 @@ ki	O
 skaklja	O
 naokoli	O
 s	O
-Sarah	per
+Sarah	loc
 ,	O
 svojo	O
 punco	O
@@ -12824,7 +12824,7 @@ naslovom	O
 Turizmu	misc
 pomaga	misc
 lastna	misc
-glava	misc
+glava	O
 bodo	O
 učenci	O
 pod	O
@@ -12865,7 +12865,7 @@ dolgoročnih	O
 posojil	O
 .	O
 
-Klapoušni	O
+Klapoušni	per
 kužki	O
 v	O
 čepicah	O
@@ -13139,8 +13139,8 @@ uspešno	O
 .	O
 
 Okrog	O
-Črnega	loc
-loga	loc
+Črnega	per
+loga	O
 se	O
 razprostirajo	O
 obsežna	O
@@ -13159,7 +13159,7 @@ enostavna	O
 obrazca	O
 z	O
 gumbi	O
-Submit	O
+Submit	per
 :	O
 en	O
 obrazec	O
@@ -13385,7 +13385,7 @@ ure	O
 katekizma	O
 na	O
 šoli	O
-Bossuet	org
+Bossuet	per
 so	O
 bile	O
 manj	O
@@ -13403,11 +13403,11 @@ krvave	O
 zgodbe	O
 .	O
 
-Drnovškov	deriv-per
+Drnovškov	per
 naslednik	O
 ,	O
 premier	O
-Rop	O
+Rop	per
 ,	O
 se	O
 v	O
@@ -13433,7 +13433,7 @@ perspektive	O
 ,	O
 češ	O
 ,	O
-Maribor	loc
+Maribor	per
 postaja	O
 (	O
 ?	O
@@ -13449,7 +13449,7 @@ nezadovoljstvo	O
 Mariborčanov	per
 .	O
 
-Beckhamovi	deriv-per
+Beckhamovi	per
 agenti	O
 so	O
 tedaj	O
@@ -13461,7 +13461,7 @@ da	O
 je	O
 igralec	O
 nad	O
-Unitedovo	org
+Unitedovo	per
 potezo	O
 "	O
 presenečen	O
@@ -13538,7 +13538,7 @@ nameraval	O
 na	O
 sestanek	O
 na	O
-ladjico	O
+ladjico	misc
 Cornelia	misc
 II	misc
 ,	O
@@ -13582,7 +13582,7 @@ ki	O
 so	O
 šli	O
 na	O
-Luno	O
+Luno	loc
 .	O
 
 O	O
@@ -13831,7 +13831,7 @@ košarice	O
 .	O
 
 Pri	O
-Repanškovih	O
+Repanškovih	per
 na	O
 Homcu	loc
 bo	O
@@ -14011,8 +14011,8 @@ brezdomcih	O
 
 Vrednost	O
 indeksa	O
-SBI	misc
-20	misc
+SBI	O
+20	O
 je	O
 višja	O
 za	O
@@ -14046,7 +14046,7 @@ vakumu	O
 "	O
 .	O
 
-Latvije	loc
+Latvije	O
 ne	O
 smemo	O
 podcenjevati	O
@@ -14170,7 +14170,7 @@ v	O
 vratu	O
 .	O
 
-Siliato	per
+Siliato	O
 ,	O
 ki	O
 ji	O
@@ -14278,8 +14278,8 @@ Katarina	per
 Marcola	per
 iz	O
 ljubljanske	O
-gostilne	org
-Jernej	org
+gostilne	O
+Jernej	per
 .	O
 
 Julia	per
@@ -14593,7 +14593,7 @@ uporabljati	O
 .	O
 «	O
 
-Vernikov	O
+Vernikov	per
 ne	O
 bomo	O
 prepričevali	O
@@ -14915,7 +14915,7 @@ in	O
 napakami	O
 .	O
 
-Anorgansko	O
+Anorgansko	per
 samo	O
 sebi	O
 zadošča	O
@@ -14990,7 +14990,7 @@ perujska	O
 volilna	O
 komisija	O
 razglasila	O
-Fujimorija	per
+Fujimorija	org
 za	O
 zmagovalca	O
 in	O
@@ -15023,9 +15023,9 @@ Vrsta	O
 športnih	O
 zvez	O
 in	O
-Mednarodni	org
-olimpijski	org
-komite	org
+Mednarodni	loc
+olimpijski	O
+komite	O
 so	O
 somatotropin	O
 razglasili	O
@@ -15058,7 +15058,7 @@ iz	O
 jogurta	O
 .	O
 
-Juko	O
+Juko	per
 skuhajte	O
 v	O
 osoljenem	O
@@ -15094,7 +15094,7 @@ las	O
 «	O
 se	O
 spominja	O
-O'Neal	per
+O'Neal	O
 ,	O
 ki	O
 igra	O
@@ -15105,11 +15105,11 @@ osmega	O
 leta	O
 .	O
 
-Evropske	O
-smernice	O
-za	O
-zdravljenje	O
-bolnikov	O
+Evropske	org
+smernice	org
+za	org
+zdravljenje	org
+bolnikov	org
 s	O
 povišano	O
 ravnijo	O
@@ -15250,11 +15250,11 @@ afere	O
 
 Glavni	O
 namen	O
-Priporočila	misc
-o	misc
-priznavanju	misc
-skupnih	misc
-diplom	misc
+Priporočila	O
+o	O
+priznavanju	O
+skupnih	O
+diplom	O
 torej	O
 je	O
 ,	O
@@ -15284,15 +15284,15 @@ v	O
 strogo	O
 pravnem	O
 pogledu	O
-Lizbonska	misc
-konvencija	misc
-o	misc
-priznavanju	misc
+Lizbonska	loc
+konvencija	O
+o	O
+priznavanju	O
 ne	O
 ureja	O
 .	O
 
-Glimepirid	O
+Glimepirid	per
 je	O
 prva	O
 učinkovina	O
@@ -15594,12 +15594,12 @@ pa	O
 v	O
 boju	O
 z	O
-Unaijem	per
-Etxebarrio	per
+Unaijem	org
+Etxebarrio	org
 ,	O
 Bartolijem	per
 ,	O
-Azevedom	per
+Azevedom	loc
 in	O
 Noeom	per
 modro	O
@@ -15689,7 +15689,7 @@ poudaril	O
 Juri	per
 .	O
 
-MILANO	O
+MILANO	loc
 -	O
 Videoposnetke	O
 nesrečnega	O
@@ -15697,7 +15697,7 @@ poleta	O
 v	O
 italijanskem	O
 mestecu	O
-Cavalese	loc
+Cavalese	per
 ,	O
 ko	O
 je	O
@@ -15807,7 +15807,7 @@ ima	O
 133	O
 MHz	O
 procesor	O
-Pentium	misc
+Pentium	loc
 ,	O
 1,6	O
 GB	O
@@ -15822,15 +15822,15 @@ CD	O
 -	O
 ROM	O
 ,	O
-Microsoftovo	O
+Microsoftovo	per
 tipkovnico	O
 ,	O
 miš	O
 in	O
 programske	O
 pakete	O
-Okna	misc
-95	misc
+Okna	O
+95	O
 ,	O
 Office	misc
 ,	O
@@ -15838,14 +15838,14 @@ enciklopedijo	O
 Encarta	misc
 96	misc
 ,	O
-Wine	O
-Guide	O
+Wine	per
+Guide	per
 ,	O
-AutoMap	O
-Road	O
-Atlas	O
-in	O
-AutoMap	O
+AutoMap	misc
+Road	misc
+Atlas	misc
+in	misc
+AutoMap	misc
 .	O
 
 Prvi	O
@@ -15854,7 +15854,7 @@ je	O
 odzval	O
 poslušalec	O
 z	O
-Vrhnike	loc
+Vrhnike	per
 ,	O
 ki	O
 je	O
@@ -15928,11 +15928,11 @@ pesmi	O
 (	O
 Foto	O
 :	O
-Reuters	O
+Reuters	org
 )	O
 
-ROL	O
-Kulturbund	O
+ROL	org
+Kulturbund	org
 minister	O
 Jožef	per
 Školč	per
@@ -16042,8 +16042,8 @@ veselo	O
 smejati	O
 .	O
 
-Dvorana	loc
-Kodeljevo	loc
+Dvorana	per
+Kodeljevo	per
 ,	O
 gledalcev	O
 350	O
@@ -16103,7 +16103,7 @@ zaradi	O
 tega	O
 po	O
 razveljavitvi	O
-Elesovega	O
+Elesovega	per
 razpisa	O
 pogodb	O
 niso	O
@@ -16299,7 +16299,7 @@ imamo	O
 počitnice	O
 .	O
 
-Navidez	O
+Navidez	per
 je	O
 bilo	O
 vse	O
@@ -16570,7 +16570,7 @@ zamolčati	O
 srbske	O
 boleče	O
 točke	O
-Brčkega	loc
+Brčkega	per
 ter	O
 tega	O
 ,	O
@@ -16719,7 +16719,7 @@ enako	O
 otrok	O
 .	O
 
-Borovci	O
+Borovci	per
 ,	O
 povsod	O
 viseča	O
@@ -16741,7 +16741,7 @@ letu	O
 so	O
 na	O
 podlagi	O
-Elesovega	O
+Elesovega	per
 razpisa	O
 že	O
 dobili	O
@@ -16925,7 +16925,7 @@ petih	O
 let	O
 .	O
 
-MARIBOR	O
+MARIBOR	loc
 ,	O
 4.	O
 V	O
@@ -16934,7 +16934,7 @@ zvečer	O
 je	O
 v	O
 kraju	O
-Kalše	loc
+Kalše	per
 prišlo	O
 do	O
 požara	O
@@ -16944,7 +16944,7 @@ stanovanjski	O
 hiši	O
 .	O
 
-Jelša	O
+Jelša	per
 ima	O
 tu	O
 optimalno	O
@@ -16964,7 +16964,7 @@ hrvaško	O
 glavno	O
 mesto	O
 kot	O
-Beograd	loc
+Beograd	per
 .	O
 
 Pri	O
@@ -17002,7 +17002,7 @@ drug	O
 Pevec	O
 skupine	O
 U2	org
-Bono	per
+Bono	org
 je	O
 znan	O
 po	O
@@ -17023,7 +17023,7 @@ v	O
 lokal	O
 in	O
 po	O
-Šinkovčevih	deriv-per
+Šinkovčevih	per
 besedah	O
 naj	O
 bi	O
@@ -17147,8 +17147,8 @@ Italija	loc
 ,	O
 Srbija	loc
 ,	O
-Črna	loc
-gora	loc
+Črna	O
+gora	O
 .	O
 
 Izkušnje	O
@@ -17386,7 +17386,7 @@ treh	O
 domačijah	O
 ,	O
 pri	O
-Arneju	per
+Arneju	loc
 ,	O
 pri	O
 Jakobu	per
@@ -17399,8 +17399,8 @@ Manču	per
 Z	O
 letališča	O
 do	O
-Cala	loc
-Fuerta	loc
+Cala	per
+Fuerta	per
 sem	O
 se	O
 morala	O
@@ -17416,9 +17416,9 @@ pa	O
 so	O
 organizirani	O
 v	O
-Fronti	org
-socialističnih	org
-sil	org
+Fronti	O
+socialističnih	O
+sil	O
 (	O
 FFS	org
 )	O
@@ -17477,7 +17477,7 @@ vsem	O
 motil	O
 .	O
 
-Wilson	O
+Wilson	per
 in	O
 drugi	O
 vodilni	O
@@ -17518,7 +17518,7 @@ groteskno	O
 vprašanje	O
 :	O
 vkorakanje	O
-Nemcev	O
+Nemcev	per
 v	O
 pretežno	O
 nemško	O
@@ -17600,21 +17600,21 @@ možnosti	O
 za	O
 napredovanje	O
 ima	O
-Koper	org
+Koper	loc
 ,	O
 saj	O
 sta	O
 favorita	O
 v	O
 skupini	O
-Brescia	org
+Brescia	per
 (	O
 Italija	loc
 )	O
 in	O
-Szentes	org
+Szentes	per
 (	O
-Madžarska	O
+Madžarska	loc
 )	O
 .	O
 
@@ -17636,7 +17636,7 @@ hlajene	O
 )	O
 zavore	O
 ,	O
-ABS	O
+ABS	org
 ,	O
 EBA	O
 .	O
@@ -17753,7 +17753,7 @@ v	O
 vodo	O
 ,	O
 je	O
-Roe	per
+Roe	O
 slišala	O
 ,	O
 kako	O
@@ -17853,7 +17853,7 @@ okno	O
 in	O
 pogledala	O
 proti	O
-Nadjini	deriv-per
+Nadjini	per
 hiši	O
 .	O
 
@@ -17874,7 +17874,7 @@ po	O
 anketah	O
 komaj	O
 četrtina	O
-Slovencev	per
+Slovencev	O
 ve	O
 ,	O
 zakaj	O
@@ -17944,7 +17944,7 @@ umovanja	O
 .	O
 
 "	O
-Pagotto	per
+Pagotto	O
 ni	O
 želel	O
 sodelovati	O
@@ -18042,8 +18042,8 @@ Alič	per
 ,	O
 vodja	O
 skupine	O
-Zaklonišče	misc
-prepeva	misc
+Zaklonišče	org
+prepeva	O
 ,	O
 ki	O
 je	O
@@ -18102,12 +18102,12 @@ leta	O
 ko	O
 se	O
 je	O
-Biafra	loc
+Biafra	per
 ,	O
 naseljena	O
 s	O
 krščanskimi	O
-Iboji	per
+Iboji	O
 ,	O
 skušala	O
 odtrgati	O
@@ -18327,8 +18327,8 @@ zatrjujejo	O
 v	O
 Zvezi	org
 društev	org
-upokojencev	org
-Slovenije	org
+upokojencev	O
+Slovenije	loc
 ,	O
 ki	O
 organizira	O
@@ -18611,8 +18611,8 @@ rudarsko	O
 stanovanje	O
 v	O
 muzeju	O
-Podzemlje	org
-Pece	org
+Podzemlje	loc
+Pece	loc
 v	O
 Mežici	loc
 ,	O
@@ -18621,10 +18621,10 @@ muzej	O
 v	O
 Javorniku	loc
 ter	O
-Kamnoseški	org
-in	org
-glažutarski	org
-muzej	org
+Kamnoseški	loc
+in	O
+glažutarski	O
+muzej	O
 v	O
 Josipdolu	loc
 na	O
@@ -18767,7 +18767,7 @@ Na	O
 namige	O
 ,	O
 da	O
-Kopaču	per
+Kopaču	loc
 podporo	O
 odrekajo	O
 tudi	O
@@ -18819,7 +18819,7 @@ Nataša	per
 v	O
 duetu	O
 s	O
-Kukovico	per
+Kukovico	loc
 brije	O
 norca	O
 .	O
@@ -18845,7 +18845,7 @@ držo	O
 .	O
 
 ČLEN	O
-KPND	misc
+KPND	O
 ,	O
 KI	O
 DOLOČA	O
@@ -18904,8 +18904,8 @@ Obikwelu	per
 ,	O
 tretji	O
 pa	O
-Ato	per
-Boldon	per
+Ato	org
+Boldon	org
 s	O
 Trinidada	loc
 (	O
@@ -19007,7 +19007,7 @@ whiting	O
 angl.	O
 )	O
 ,	O
-Wittling	O
+Wittling	per
 (	O
 nem.	O
 )	O
@@ -19031,7 +19031,7 @@ kreditnega	O
 sistema	O
 kakršen	O
 je	O
-ECTS	misc
+ECTS	org
 kot	O
 ustreznega	O
 sredstva	O
@@ -19185,7 +19185,7 @@ primer	O
 Dioskura	per
 Kastor	per
 in	O
-Poluks	per
+Poluks	loc
 ,	O
 sinova	O
 dvojčka	O
@@ -19193,7 +19193,7 @@ umrljive	O
 matere	O
 in	O
 večnega	O
-Zevsa	per
+Zevsa	loc
 -	O
 Jupitra	per
 ,	O
@@ -19256,7 +19256,7 @@ sem	O
 začel	O
 stopati	O
 proti	O
-Katini	deriv-per
+Katini	per
 hiši	O
 .	O
 
@@ -19296,7 +19296,7 @@ odvečnih	O
 ”	O
 .	O
 
-Avtobus	O
+Avtobus	per
 je	O
 bil	O
 nabito	O
@@ -19627,9 +19627,9 @@ pole	O
 z	O
 natisnjenim	O
 besedilom	O
-Arte	misc
-del	misc
-merletto	misc
+Arte	O
+del	O
+merletto	O
 in	O
 petnajstimi	O
 znamkami	O
@@ -19706,8 +19706,8 @@ uporabljamo	O
 pri	O
 spletni	O
 poslovalnici	O
-Klik	misc
-NLB	misc
+Klik	org
+NLB	org
 in	O
 je	O
 na	O
@@ -19814,7 +19814,7 @@ bo	O
 Iz	O
 ljubezni	O
 do	O
-Luciana	per
+Luciana	loc
 bo	O
 poskusila	O
 še	O
@@ -19833,7 +19833,7 @@ Ricarda	per
 Njegove	O
 ,	O
 v	O
-modernizacijo	O
+modernizacijo	loc
 Avstralije	loc
 usmerjene	O
 tržne	O
@@ -19854,8 +19854,8 @@ razstavi	O
 ,	O
 na	O
 temo	O
-Projekt	misc
-knjiga	misc
+Projekt	org
+knjiga	org
 ,	O
 ki	O
 so	O
@@ -19961,7 +19961,7 @@ in	O
 delno	O
 tudi	O
 proti	O
-Vzhodu	loc
+Vzhodu	O
 ,	O
 tako	O
 rekoč	O
@@ -20066,7 +20066,7 @@ vsem	O
 pa	O
 tudi	O
 o	O
-Jiangovem	O
+Jiangovem	per
 govoru	O
 enako	O
 kot	O
@@ -20276,8 +20276,8 @@ filmih	O
 Rdeči	misc
 boogie	misc
 ,	O
-Umetni	misc
-raj	misc
+Umetni	O
+raj	O
 )	O
 .	O
 
@@ -20424,14 +20424,14 @@ genove	O
 !	O
 «	O
 
-Trgovec	O
+Trgovec	per
 Bonaventura	per
 ,	O
 ki	O
 ga	O
 Herman	per
 kot	O
-Juda	O
+Juda	per
 ne	O
 mara	O
 ,	O
@@ -20458,7 +20458,7 @@ se	O
 je	O
 razširilo	O
 do	O
-Korejcev	per
+Korejcev	loc
 v	O
 predstraži	O
 in	O
@@ -20482,7 +20482,7 @@ drugem	O
 
 Balzac	per
 Honoré	per
-de	per
+de	O
 (	O
 17991850	O
 )	O
@@ -20501,7 +20501,7 @@ zapustilo	O
 domove	O
 več	O
 tisoč	O
-Slovencev	O
+Slovencev	per
 ,	O
 med	O
 temi	O
