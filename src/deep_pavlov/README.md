@@ -9,12 +9,13 @@
 5. Put in (profile folder, both in Windows or linux, Mac) ~/.deeppavlov/models/ in directory "ner_ontonotes_bert_mult"
 
 
-##Scripts:
+## Scripts:
 
 * preprocess_dataset_for_training.py - Preprocess dataset for training of DeepPavlov model. 
    Dataset must exist under src/common/dataset
 * pavlov_train.py - starts training pavlov on datasets in ~/.deeppavlov/downloads/ontonotes
 as stated in http://docs.deeppavlov.ai/en/master/features/models/ner.html#train-and-use-the-model
+* pavlov_test_on_dataset.py - run test on datasets in ~/.deeppavlov/downloads/ontonotes
 * pavlov_test.py - run trained model on handmade test strings
 
 ## results folder
