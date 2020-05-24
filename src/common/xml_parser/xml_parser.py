@@ -1,5 +1,5 @@
 from xml.dom import minidom
-
+import re
 
 class XMLParser:
 
@@ -7,6 +7,9 @@ class XMLParser:
         print("Parsing " + file_path + "...")
         self.doc = minidom.parse(file_path)
         print("Done")
+
+    def extract_pos(self, w):
+        return w.getAttribute("msd").split("")
 
     def words_in_element(self, s):
         elements = s.getElementsByTagName("w")
@@ -27,11 +30,14 @@ class XMLParser:
                     if c.tagName == "pc" or c.tagName == "w":
                         word_tag = "O"
                         word = c.firstChild.nodeValue;
-                        tags.append((word, word_tag))
+                        pos = c.getAttribute("ana").split(":")[1][0]
+                        tags.append((word, word_tag, pos))
                     elif c.tagName == "seg":
                         word_tag = c.getAttribute("subtype")
-                        for word in self.words_in_element(c):
-                            tags.append((word, word_tag))
+                        for w in c.getElementsByTagName("w"):
+                            word = w.firstChild.nodeValue;
+                            pos = w.getAttribute("ana").split(":")[1][0]
+                            tags.append((word, word_tag, pos))
         return tags
 
     def list_all_tags_for_deepPavlov(self):
