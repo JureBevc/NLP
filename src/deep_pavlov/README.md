@@ -6,7 +6,17 @@
 
     python -m deeppavlov install ner_ontonotes_bert
 4. Download trained DeepPavlov model from https://www.dropbox.com/s/pyo7phu2n77a3ok/ner_ontonotes_bert_mult.zip?dl=0
-5. Put in (profile folder, both in Windows or linux, Mac) ~/.deeppavlov/models/ in directory "ner_ontonotes_bert_mult"
+    * NER tags trained only: [under releases](https://github.com/JureBevc/NLP/releases):  ner_ontonotes_bert_mult_samo_TAG.zip  (https://github.com/JureBevc/NLP/releases/download/0.2.0/ner_ontonotes_bert_mult_samo_TAG.zip)
+    * NER and morphosyntactic tags: [under releases](https://github.com/JureBevc/NLP/releases): ner_ontonotes_bert_mult_TAG_UPOS.zip (https://github.com/JureBevc/NLP/releases/download/0.2.0/ner_ontonotes_bert_mult_TAG_UPOS.zip)
+5. Put in (profile folder, both in Windows or linux, Mac) "~/.deeppavlov/models/" in directory "ner_ontonotes_bert_mult"
+    * inside "~/.deeppavlov/models/ner_ontonotes_bert_mult" there must be the checkpoint, tag.dict etc files.
+
+## To evaluate:
+1. select which trained model to evaluate and extract the archive into "~/.deeppavlov/models/ner_ontonotes_bert_mult"
+2. move dataset to "~/.deeppavlov/downloads/ontonotes/"
+    * NER tags trained only: copy over the files from "repo/src/deep_pavlov/training_dataset_NER_tag/"
+    * NER and morphosyntactic tags: copy over the files from "repo/src/deep_pavlov/training_dataset_NER_upos_tag/"
+3. run pavlov_test_on_dataset.py
 
 
 ## Scripts:
