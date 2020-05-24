@@ -21,6 +21,11 @@
     * NER and morphosyntactic tags: copy over the files from "repo/src/deep_pavlov/training_dataset_NER_upos_tag/"
 3. run pavlov_test_on_dataset.py
 
+### note:
+Files must be named:
+    * train.txt
+    * test.txt
+    * validate.txt
 
 ## Scripts:
 
