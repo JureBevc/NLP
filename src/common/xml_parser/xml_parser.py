@@ -89,3 +89,63 @@ class XMLParser:
                     all_words_with_subtypes.append(["0", "0"])
                     break
         return all_words_with_subtypes
+
+    def list_all_tags_and_upos_for_deepPavlov(self):
+        """
+        same as "list_all_tags", but different format: UPPERCASE an B- or I- prepended.
+
+        :return: Array of two element array [word, tag]
+        """
+
+        all_words_with_subtypes = []
+        for sentence in self.doc.getElementsByTagName("s"):
+            # flatnames = {
+            #
+            # }
+            # for link in sentence.getElementsByTagName("link"):
+            #    if(link.getAttribute("ana") == "ud-syn:flat_name"):
+            #        n = 0
+            #        for target in link.getAttribute("target").split(" "):
+            #            pot=target.split(".")
+            #            idx =int(pot[len(pot)-1].split("t")[1])-1
+            #            selected =  all_words_with_subtypes[idx]
+            #            if(n == 0):
+            #                selected=[selected[0], "B-"+selected[1]]
+            #            else:
+            #                selected=[selected[0], "I-"+selected[1]]
+            #            n+=1
+            #    #ud-syn:flat_name
+            for node in sentence.childNodes:
+                subtype = "O"
+
+                if node.nodeName == "w":
+                    # msd = node.getAttribute("msd")
+                    # if "UposTag=PROPN|Case=Loc|" in msd:
+                    #   subtype = "LOC"
+                    # elif "UposTag=PROPN|Case=Nom|" in msd:
+                    #    if node.getAttribute("lemma").isupper():
+                    #       subtype = "ORG"
+                    #  else:
+                    #     subtype = "PER"
+                    ana_right = node.getAttribute("ana").split(":")[1]
+                    all_words_with_subtypes.append([node.firstChild.nodeValue, subtype.upper(), ana_right])
+                elif node.nodeName == "seg":
+                    subtype = node.getAttribute("subtype")
+                    if subtype == "per":
+                        subtype = "PERSON"
+                    wordinSeg = 0
+                    for w in node.getElementsByTagName("w"):
+                        prepend = "B-"
+                        if wordinSeg > 0:
+                            prepend = "I-"
+                        wordinSeg += 1
+                        ana_right = w.getAttribute("ana").split(":")[1]
+                        all_words_with_subtypes.append([w.firstChild.nodeValue, prepend + subtype.upper(), ana_right])
+                elif node.nodeName == "pc":
+                    ana_right = node.getAttribute("ana").split(":")[1]
+                    all_words_with_subtypes.append([node.firstChild.nodeValue, subtype.upper(), ana_right])
+                elif node.nodeName == "linkGrp":
+
+                    all_words_with_subtypes.append(["0", "0", "0"])
+                    break
+        return all_words_with_subtypes
