@@ -11,6 +11,9 @@
 5. Put in (profile folder, both in Windows or linux, Mac) "~/.deeppavlov/models/" in directory "ner_ontonotes_bert_mult"
     * inside "~/.deeppavlov/models/ner_ontonotes_bert_mult" there must be the checkpoint, tag.dict etc files.
 
+## Get modified ssj500k dataset:
+
+
 ## To evaluate:
 1. select which trained model to evaluate and extract the archive into "~/.deeppavlov/models/ner_ontonotes_bert_mult"
 2. move dataset to "~/.deeppavlov/downloads/ontonotes/"
@@ -21,15 +24,24 @@
 
 ## Scripts:
 
-* preprocess_dataset_for_training.py - Preprocess dataset for training of DeepPavlov model. 
+* preprocess_dataset_for_training.py - Preprocess dataset for training of DeepPavlov model with NER tags only. 
+   Dataset must exist under src/common/dataset
+* preprocess_dataset_for_training_uposNtag.py - Preprocess dataset for training of DeepPavlov model with NER and morphosyntactic tags.
    Dataset must exist under src/common/dataset
 * pavlov_train.py - starts training pavlov on datasets in ~/.deeppavlov/downloads/ontonotes
 as stated in http://docs.deeppavlov.ai/en/master/features/models/ner.html#train-and-use-the-model
 * pavlov_test_on_dataset.py - run test on datasets in ~/.deeppavlov/downloads/ontonotes
 * pavlov_test.py - run trained model on handmade test strings
 
+
 ## results folder
 Contains results of pavlov_test.py of DeepPavlov model trained on ssj500k stripped of  entries without \<seg\> tokens.
 
-## trainingDataset folder
-Dataset used in training the model, parsed by
+## training_dataset folders
+Datasets used in training the model:
+ * training_dataset_NER_tag: preprocessed by  preprocess_dataset_for_training.py, renamed to test.txt, train.txt, valid.txt 
+ * training_dataset_NER_upos_tag: preprocessed by preprocess_dataset_for_training_uposNtag.py, renamed to test.txt, train.txt, valid.txt
+ 
+### Preprocessing note:
+After preprocessing change all B-DERIV-PERSON to B-PERSON in all txt files.
+
