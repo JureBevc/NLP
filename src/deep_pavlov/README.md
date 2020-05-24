@@ -5,7 +5,7 @@
 3. After installed, install ner_ontonotes_bert to deeppavlov
 
     python -m deeppavlov install ner_ontonotes_bert
-4. Download trained DeepPavlov model from https://www.dropbox.com/s/pyo7phu2n77a3ok/ner_ontonotes_bert_mult.zip?dl=0
+4. Download trained DeepPavlov model:
     * NER tags trained only: [under releases](https://github.com/JureBevc/NLP/releases):  ner_ontonotes_bert_mult_samo_TAG.zip  (https://github.com/JureBevc/NLP/releases/download/0.2.0/ner_ontonotes_bert_mult_samo_TAG.zip)
     * NER and morphosyntactic tags: [under releases](https://github.com/JureBevc/NLP/releases): ner_ontonotes_bert_mult_TAG_UPOS.zip (https://github.com/JureBevc/NLP/releases/download/0.2.0/ner_ontonotes_bert_mult_TAG_UPOS.zip)
 5. Put in (profile folder, both in Windows or linux, Mac) "~/.deeppavlov/models/" in directory "ner_ontonotes_bert_mult"
