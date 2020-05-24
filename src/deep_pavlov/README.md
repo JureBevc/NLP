@@ -39,9 +39,6 @@ as stated in http://docs.deeppavlov.ai/en/master/features/models/ner.html#train-
 * pavlov_test.py - run trained model on handmade test strings
 
 
-## results folder
-Contains results of pavlov_test.py of DeepPavlov model trained on ssj500k stripped of  entries without \<seg\> tokens.
-
 ## training_dataset folders
 Datasets used in training the model:
  * training_dataset_NER_tag: preprocessed by  preprocess_dataset_for_training.py, renamed to test.txt, train.txt, valid.txt 
